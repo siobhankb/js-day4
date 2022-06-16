@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="Description" content="Enter your description here"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <script src="js/main.js" defer></script> <!-- add `defer` to script or put at bottom of html -->
+        <title>Country Facts</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+              <span class="navbar-brand mb-0 h1">Country Facts</span>
+            </div>
+          </nav>
+
+          <div class="container">
+              <h1 class="text-center" id="top-header">Welcome to the Country Fact Generator</h1>
+              <div class="row">
+                  <div class="col-2"><button>Blue</button></div>
+                  <div class="col-2"><button>Gray</button></div>
+                  <div class="col-2"><button>Green</button></div>
+                  <div class="col-2"><button>Yellow</button></div>
+                  <div class="col-2"><button>Red</button></div>
+                  <div class="col-2"><button>Teal</button></div>
+              </div>
+
+              <div class="row">
+                  <form action="">
+                      <div class="form-group">
+                          <input class="form-control" name="countryName" type="text" placeholder="Country Name"/>
+                          <input type="submit" class="btn btn-primary d-block w-100"/>
+                      </div>
+                  </form>
+              </div>
+
+              <div class="row" id="countryDisplay">
+
+              </div>
+          </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+    </body>
+</html>
